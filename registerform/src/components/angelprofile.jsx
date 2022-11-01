@@ -12,6 +12,8 @@ class Profile extends Component{
                     <div className="col"></div>
                     <div className="col"></div>
                     <div className="col"></div>
+            
+                    <div className="col"></div>
                 </div>
             </div>
         )
