@@ -3,7 +3,8 @@ import React, { Component } from 'react'
 class Login extends Component {
   render() {
     return (
-      <form className="row w-25 gy-3 bg-light p-3 mx-auto mt-5 rounded">
+      <div className="container-fluid">
+      <form className="gy-3  w-25 border border-secondary rounded p-3 mx-auto mt-5 rounded">
         
         
             <div className="col-12">
@@ -19,10 +20,11 @@ class Login extends Component {
         
         
             <div className="col-12">
-                <button type="submit" className='form-control btn-primary my-3' required>Login</button>
+                <button type="submit" className='form-control btn-primary ' required>Login</button>
             </div>
         
       </form>
+      </div>
     )
   }
 }

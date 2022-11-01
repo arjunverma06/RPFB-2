@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header/>
       {/* <RegistrationForm/>  */}
-      {/* <Login/> */}
+      <Login/>
       {/* <Signup/> */}
       <Profile/>
     </div>
